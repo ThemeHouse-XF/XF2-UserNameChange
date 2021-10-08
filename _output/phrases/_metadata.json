@@ -1,0 +1,302 @@
+{
+    "option.thusernamechange_historyLength.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0e90874228cebca12e019930306d3064"
+    },
+    "option.thusernamechange_invertCooldownPerm.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c7a101af45c53c5fb8137eef741429a5"
+    },
+    "option.thusernamechange_perPage.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e6c992d9ff65da8496783c9164a54174"
+    },
+    "option_explain.thusernamechange_historyLength.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "24b2095cd3373a9745140c018e790b0e"
+    },
+    "option_explain.thusernamechange_invertCooldownPerm.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "87b31468f1dfed42f7bb454832c93e34"
+    },
+    "option_explain.thusernamechange_perPage.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.thusernamechange.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "376a8904f5af3a29fd92657526b2d778"
+    },
+    "option_group_description.thusernamechange.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "18d17322fe49b992582106121372dc85"
+    },
+    "permission.th_unc_changeUsername.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e2dfd958fc397f6b533e9bd70f28e6dc"
+    },
+    "permission.th_unc_changeUsernameCooldown.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ecc9cb563a55c48e439725d2942819a0"
+    },
+    "permission.th_unc_changeUsernameHistoryPriv.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e414fe174dd7eb8c706e9ef40ccfd590"
+    },
+    "permission.th_unc_deleteAny.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "6c73c20697cc0001527b37907d83b50e"
+    },
+    "permission.th_unc_deleteOwn.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "36dd6aeb237bd2a354e0c825690af99c"
+    },
+    "permission.th_unc_maxChanges.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bd89de68796f4458968e85f40fba6f65"
+    },
+    "permission.th_unc_viewTimestamps.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "fa0236a28c31975649aa0cc892d680b0"
+    },
+    "permission.th_unc_viewUsernameHistory.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "9425d45a99057ef21b9216bcc96f7709"
+    },
+    "permission_interface.th_unc.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c09989341db730a5a8a329a3b44ef76c"
+    },
+    "permission_interface.th_unc_moderator.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "555962b89f73c4ab5bc0d8d6f9ae485e"
+    },
+    "th_unc_also_known_as.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4985e391513aa2449d2878107eb2d751"
+    },
+    "th_unc_change_date.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "cb62e35819d732212e26249e9aebe2b0"
+    },
+    "th_unc_change_history.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "88f185f4ac10d42111998ca2c1df917a"
+    },
+    "th_unc_change_username.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e2dfd958fc397f6b533e9bd70f28e6dc"
+    },
+    "th_unc_changed_by.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d848878568328c91e4548bb2a80b5877"
+    },
+    "th_unc_force_name_change.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "cbb55d0589edfd959db9b64b76ef2541"
+    },
+    "th_unc_force_name_change_hint.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "f4d3f760b631af63d29e289ab2eeb6e2"
+    },
+    "th_unc_new_user_name.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "94e559be4b48d85275a0c4deed24824f"
+    },
+    "th_unc_new_username.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "94e559be4b48d85275a0c4deed24824f"
+    },
+    "th_unc_next_change_at_x.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "02f8fc4d19fa3f2ba10c045aebedea38"
+    },
+    "th_unc_old_user_name.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ce25775dc70bfcafc118ec708913f631"
+    },
+    "th_unc_until.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3103a7d8f63cb184287c558ca51c6160"
+    },
+    "th_unc_user_can_change_user_name.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "f71900ad549759d015ab840359716967"
+    },
+    "th_unc_user_can_not_change_user_name.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "38382615589adb504d90bfe8a814e342"
+    },
+    "th_unc_user_has_changed_username_at_least_x_times.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ef00b9c7596402453e9ae351aaf5ca7d"
+    },
+    "th_unc_user_has_changed_username_no_more_than_x_times.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e08153d19323f231603eac5fdd30c66d"
+    },
+    "th_unc_user_has_forced_name_change_pending.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8ee9c103ac6403adaf5ead31eaa28590"
+    },
+    "th_unc_user_has_not_forced_name_change_pending.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "110a9ac0fca73b292cdd1d752b0ae804"
+    },
+    "th_unc_user_last_name_change_was_at_least_x_days_ago.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "21d090273a30a4f0fb8fc12715595b3f"
+    },
+    "th_unc_user_last_name_change_was_no_more_than_x_days_ago.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "91cc0675d1beec12aea24bab585bc69b"
+    },
+    "th_unc_user_name.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "987dce661afca3372aa3e05702fb1d06"
+    },
+    "th_unc_user_name_cannot_be_old_name.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ef1bb605ba59fe32d0c6a2be208aeee0"
+    },
+    "th_unc_user_name_change_at_x.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8f43cbd825fb8ea788d94be4ec4ecc8e"
+    },
+    "th_unc_user_name_changes.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "ace30afb722a3c662df96e10ca0d2354"
+    },
+    "th_unc_user_name_changes_of_x.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bfa6fc96d90dfde6a391d3dd2dbaa4a5"
+    },
+    "th_unc_view_all_changes.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b5bb57fa9573a0c84be653e045b3aa0d"
+    },
+    "th_unc_view_your_full_user_name_history.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "5d771491bc2b1715be64890e36320921"
+    },
+    "th_unc_x_has_not_changed_their_name_yet.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "9deb1c2ab06d5249ad93bbaaafe96fa9"
+    },
+    "th_unc_you_are_not_allowed_to_change_your_username.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e55b399aa6bbc701149753d3e5b0548a"
+    },
+    "th_unc_you_cannot_change_your_username_before_x.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1a2f900efb138af6b7d435cd0a98127d"
+    },
+    "th_unc_you_have_not_changed_your_name_yet.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "6a83e3c1a9c751fb73b13713f187fcb6"
+    },
+    "th_unc_you_have_reached_the_maximum_number_of_allowed_user_name_changes.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7be89d82e1653813457fd289220b8292"
+    }
+}

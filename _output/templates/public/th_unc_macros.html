@@ -1,0 +1,39 @@
+<xf:macro name="user_name_change_form">
+	<xf:if is="$xf.visitor.canThUncChangeUserName()">
+		<xf:textboxrow name="th_unc_user_name"
+					   value="{$xf.visitor.username}"
+					   label="{{ phrase('th_unc_user_name') }}"></xf:textboxrow>
+		<xf:else />
+		<xf:formrow label="{{ phrase('th_unc_user_name') }}"
+					explain="{{ $xf.visitor.th_unc_next_change > 0 ? phrase('th_unc_next_change_at_x', {'time': date_time($xf.visitor.th_unc_next_change)}) : '' }}">
+			{$xf.visitor.username}
+		</xf:formrow>
+	</xf:if>
+</xf:macro>
+
+<xf:macro name="history_popup_trigger"
+		  arg-user="!">
+	<xf:if is="$user.th_unc_change_count && $user.canViewThUncHistory()">
+		<div class="buttonGroup-buttonWrapper thunc-username-change-button-wrapper">
+			<xf:button class="button--link menuTrigger" data-xf-click="menu" aria-expanded="false" aria-haspopup="true"></xf:button>
+			<div class="menu" data-menu="menu" aria-hidden="true">
+				<div class="menu-content thunc-username-change-menu-content">
+					<h4 class="menu-header">{{ phrase('th_unc_also_known_as') }}</h4>
+					<!--[XF:find_menu:top]-->
+					<xf:foreach loop="$user.th_unc_latest_changes" value="$record">
+						<dl class="menu-linkRow"><dt>{$record.old_username}</dt><dd><xf:if is="$xf.visitor.hasPermission('th_unc', 'viewTimestamps')"><span class="record-until">{{ phrase('th_unc_until') }}</span> <xf:date time="$record.change_date" /></xf:if></dd></dl>
+					</xf:foreach>
+
+					<xf:if is="$user.th_unc_change_count > $user.th_unc_latest_changes.count()">
+						<footer class="menu-footer">
+							<a href="{{ link('members/th-unc-user-name-history', $user) }}">
+								{{ phrase('th_unc_view_all_changes') }}
+							</a>
+						</footer>
+					</xf:if>
+				</div>
+			</div>
+		</div>
+		<xf:css src="th_unc_username_change_history.less" />
+	</xf:if>
+</xf:macro>

@@ -1,0 +1,1 @@
+Invert cooldown permission

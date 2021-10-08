@@ -1,0 +1,19 @@
+{
+    "legacy_addon_id": "",
+    "title": "[TH] User Name Change",
+    "description": "Let your users change their names, and keep a history of changes.",
+    "version_id": 1000194,
+    "version_string": "1.0.1 Patch Level 4",
+    "dev": "ThemeHouse",
+    "dev_url": "https://www.themehouse.com",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2010010,
+            "XenForo 2.1.0+"
+        ]
+    },
+    "icon": "icon.png"
+}

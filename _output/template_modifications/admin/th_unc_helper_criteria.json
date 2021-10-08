@@ -1,0 +1,9 @@
+{
+    "template": "helper_criteria",
+    "description": "Add user name change criteria",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:user:after_content]-->",
+    "replace": "$0\n\n<xf:include template=\"th_unc_user_name_change_criteria\" />"
+}

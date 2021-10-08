@@ -1,0 +1,75 @@
+<xf:title>
+	{{ phrase('th_unc_user_name_changes_of_x', {'name': $user.username} )}}
+</xf:title>
+
+<div class="block">
+	<div class="block-outer">
+		<xf:pagenav page="{$page}" perpage="{$perPage}" total="{$total}"
+					link="members/th-unc-user-name-history" data="{$user}"
+					wrapperclass="block-outer-main" />
+	</div>
+
+	<div class="block-container">
+		<xf:if is="$changes is not empty">
+			<div class="block-body">
+				<xf:datalist>
+					<xf:datarow rowtype="subsection">
+						<xf:if is="$xf.visitor.hasPermission('th_unc', 'viewTimestamps')">
+							<xf:cell>
+								{{ phrase('th_unc_change_date') }}
+							</xf:cell>
+						</xf:if>
+						<xf:cell>
+							{{ phrase('th_unc_old_user_name') }}
+						</xf:cell>
+						<xf:cell>
+							{{ phrase('th_unc_new_user_name') }}
+						</xf:cell>
+						<xf:cell colspan="2">
+							{{ phrase('th_unc_changed_by') }}
+						</xf:cell>
+					</xf:datarow>
+					<xf:foreach loop="$changes" value="$change">
+						<xf:datarow>
+							<xf:if is="$xf.visitor.hasPermission('th_unc', 'viewTimestamps')">
+								<xf:cell>
+									{{ date_time($change.change_date) }}
+								</xf:cell>
+							</xf:if>
+							<xf:cell>
+								{$change.old_username}
+							</xf:cell>
+							<xf:cell>
+								{$change.new_username}
+							</xf:cell>
+							<xf:cell colspan="{{ $change.canDelete() ? 1 : 2 }}">
+								<xf:username user="{$change.ChangeUser}" />
+							</xf:cell>
+							<xf:if is="$change.canDelete()">
+								<xf:delete icon="delete" href="{{ link('members/th-unc-user-name-history/delete', $change) }}" />
+							</xf:if>
+						</xf:datarow>
+					</xf:foreach>
+				</xf:datalist>
+			</div>
+			<footer class="block-footer">
+				{{ display_totals($changes, $total) }}
+			</footer>
+			<xf:else />
+			<div class="block-body">
+				<div class="block-row">
+					<xf:if is="$user.user_id != $xf.visitor.user_id">
+						{{ phrase('th_unc_x_has_not_changed_their_name_yet', {'user': $user.username}) }}
+						<xf:else />
+						{{ phrase('th_unc_you_have_not_changed_your_name_yet') }}
+					</xf:if>
+				</div>
+			</div>
+		</xf:if>
+	</div>
+	<div class="block-outer block-outer--after">
+		<xf:pagenav page="{$page}" perpage="{$perPage}" total="{$total}"
+					link="members/th-unc-user-name-history" data="{$user}"
+					wrapperclass="block-outer-main" />
+	</div>
+</div>

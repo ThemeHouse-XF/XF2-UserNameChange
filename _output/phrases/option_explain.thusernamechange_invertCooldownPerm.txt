@@ -1,0 +1,1 @@
+If enabled, the cooldown permission integer will be inverted, so that the lowest value will be chosen for cooldown calculation rather than the highest integer value. Please note: this is not correctly reflected in the software on permission analyzing or similar functionality and only applied on runtime. This will also disable the "unlimited" option.

@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "force-name-change",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\UserNameChange:ForceNameChange",
+    "context": "",
+    "action_prefix": ""
+}

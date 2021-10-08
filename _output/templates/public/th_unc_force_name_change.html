@@ -1,0 +1,14 @@
+<xf:title>
+	{{ phrase('th_unc_change_username') }}
+</xf:title>
+
+<xf:form action="{{ link('force-name-change') }}" ajax="true"
+		 class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<xf:textboxrow name="username" label="{{ phrase('th_unc_new_username') }}" />
+		</div>
+		
+		<xf:submitrow icon="save" />
+	</div>
+</xf:form>

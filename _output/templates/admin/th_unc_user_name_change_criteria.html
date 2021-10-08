@@ -1,0 +1,47 @@
+<xf:checkboxrow label="{{ phrase('th_unc_user_name_changes') }}">
+	<xf:option name="user_criteria[th_unc_change_user_name][rule]"
+			   value="th_unc_change_user_name" selected="{$criteria.th_unc_change_user_name}"
+			   label="{{ phrase('th_unc_user_can_change_user_name') }}" />
+	<xf:option name="user_criteria[th_unc_not_change_user_name][rule]"
+			   value="th_unc_not_change_user_name" selected="{$criteria.th_unc_not_change_user_name}"
+			   label="{{ phrase('th_unc_user_can_not_change_user_name') }}" />
+	
+	<xf:option name="user_criteria[th_unc_force_name_change_pending][rule]"
+			   value="th_unc_force_name_change_pending" selected="{$criteria.th_unc_force_name_change_pending}"
+			   label="{{ phrase('th_unc_user_has_forced_name_change_pending') }}" />
+	<xf:option name="user_criteria[th_unc_not_force_name_change_pending][rule]"
+			   value="th_unc_not_force_name_change_pending" selected="{$criteria.th_unc_not_force_name_change_pending}"
+			   label="{{ phrase('th_unc_user_has_not_forced_name_change_pending') }}" />
+
+	<xf:option name="user_criteria[th_unc_user_name_changes][rule]"
+			   value="th_unc_user_name_changes" selected="{$criteria.th_unc_user_name_changes}"
+			   label="{{ phrase('th_unc_user_has_changed_username_at_least_x_times:') }}">
+		<xf:numberbox name="user_criteria[th_unc_user_name_changes][data][changes]"
+					  value="{$criteria.th_unc_user_name_changes.changes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+	<xf:option name="user_criteria[th_unc_user_name_max_changes][rule]"
+			   value="th_unc_user_name_max_changes" selected="{$criteria.th_unc_user_name_max_changes}"
+			   label="{{ phrase('th_unc_user_has_changed_username_no_more_than_x_times:') }}">
+		<xf:numberbox name="user_criteria[th_unc_user_name_max_changes][data][changes]"
+					  value="{$criteria.th_unc_user_name_max_changes.changes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+
+	<xf:option name="user_criteria[th_unc_user_name_last_change_days][rule]"
+			   value="th_unc_user_name_last_change_days"
+			   selected="{$criteria.th_unc_user_name_last_change_days}"
+			   label="{{ phrase('th_unc_user_last_name_change_was_at_least_x_days_ago:') }}">
+		<xf:numberbox name="user_criteria[th_unc_user_name_last_change_days][data][days]"
+					  value="{$criteria.th_unc_user_name_last_change_days.days}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+	<xf:option name="user_criteria[th_unc_user_name_last_change_max_days][rule]"
+			   value="th_unc_user_name_last_change_max_days"
+			   selected="{$criteria.th_unc_user_name_last_change_max_days}"
+			   label="{{ phrase('th_unc_user_last_name_change_was_no_more_than_x_days_ago:') }}">
+		<xf:numberbox name="user_criteria[th_unc_user_name_last_change_max_days][data][changes]"
+					  value="{$criteria.th_unc_user_name_last_change_max_days.changes}"
+					  size="5" min="0" step="1" />
+	</xf:option>
+</xf:checkboxrow>

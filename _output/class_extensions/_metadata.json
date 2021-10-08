@@ -1,0 +1,11 @@
+{
+    "XF-Admin-Controller-User_ThemeHouse-UserNameChange-XF-Admin-Controller-User.json": {
+        "hash": "9c34d543d2e14b074515b527291262b8"
+    },
+    "XF-Entity-User_ThemeHouse-UserNameChange-XF-Entity-User.json": {
+        "hash": "5ff6b1782710c0a2c49269ac9621d495"
+    },
+    "XF-Pub-Controller-Account_ThemeHouse-UserNameChange-XF-Pub-Controller-Account.json": {
+        "hash": "aceb56aeab520d91f95c14c491ae73a9"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "route_type": "public",
+    "route_prefix": "members",
+    "sub_name": "th-unc-user-name-history",
+    "format": ":int<user_id>/th-unc-user-name-history/:int<change_id>",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\UserNameChange:UserNameHistory",
+    "context": "",
+    "action_prefix": ""
+}

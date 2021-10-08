@@ -1,0 +1,9 @@
+{
+    "template": "member_view",
+    "description": "Add member history dropdown",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:username user=\"{$user}\" rich=\"true\" href=\"\" />",
+    "replace": "$0\n<xf:macro name=\"history_popup_trigger\"\n\t\t  template=\"th_unc_macros\"\n\t\t  arg-user=\"{$user}\" />"
+}

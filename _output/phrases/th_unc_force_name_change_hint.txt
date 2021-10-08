@@ -1,0 +1,1 @@
+The user will be forced to change their user name the next time they visit before being allowed to continue browsing the site.

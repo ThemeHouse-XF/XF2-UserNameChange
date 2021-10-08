@@ -1,0 +1,9 @@
+{
+    "template": "user_edit",
+    "description": "Add force name change checkbox",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:textboxrow name=\"user[email]\" value=\"{$user.email}\"",
+    "replace": "<xf:checkboxrow>\n\t\t\t\t\t\t<xf:option name=\"user[th_unco_force_name_change]\"\n\t\t\t\t\t\t\t\t   value=\"1\"\n\t\t\t\t\t\t\t\t   hint=\"{{ phrase('th_unc_force_name_change_hint') }}\"\n\t\t\t\t\t\t\t\t   selected=\"{$user.th_unco_force_name_change}\">\n\t\t\t\t\t\t\t{{ phrase('th_unc_force_name_change') }}\n\t\t\t\t\t\t</xf:option>\n\t\t\t\t\t</xf:checkboxrow>\n\t\t\t\t\t$0"
+}

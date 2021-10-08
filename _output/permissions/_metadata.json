@@ -1,0 +1,26 @@
+{
+    "th_unc-changeUsername.json": {
+        "hash": "b0138c592341130de2de99212687c8aa"
+    },
+    "th_unc-changeUsernameCooldown.json": {
+        "hash": "bad6e50baece536a48e0550c5285f1a1"
+    },
+    "th_unc-changeUsernameHistoryPriv.json": {
+        "hash": "8023afcef4537b66c128702e5cc0376b"
+    },
+    "th_unc-deleteAny.json": {
+        "hash": "01c648f5fdb32aa5db652351e1f614a8"
+    },
+    "th_unc-deleteOwn.json": {
+        "hash": "978409a033e5860c345f0348aa2b7ba5"
+    },
+    "th_unc-maxChanges.json": {
+        "hash": "17ebfcbe01c60b4cf36fceecbb930707"
+    },
+    "th_unc-viewTimestamps.json": {
+        "hash": "a87e38e33575b0e2368159f7d42fabc7"
+    },
+    "th_unc-viewUsernameHistory.json": {
+        "hash": "c38e18314651dd0ac135a0d4ba81bb19"
+    }
+}
